@@ -3,7 +3,7 @@
 import { faGithubAlt, faLinkedinIn, faMediumM, faFacebook, faTwitter, faInstagram, faYoutube, faBehance } from "@fortawesome/free-brands-svg-icons"
 
 export const userinfo = {
-    logoText: "Michael Scott", //This text is visible on your navbar and footer like your logo.
+    logoText: "Anurag Singla", //This text is visible on your navbar and footer like your logo.
     contact: {
         email: 'michaelscott@email.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
         phone: '1234567890', //Phone number is optional, if you dont want it, consider leaving it blank .
@@ -18,7 +18,7 @@ export const userinfo = {
     ],
     greeting: {
         //this text goes on your landing page
-        title: "Hey there, I am Michael.",
+        title: "Hey there, I am Anurag.",
         subtitle: "Michael Gary Scott is a fictional character in NBC's The Office, portrayed by Steve Carell. Michael is the protagonist of the series, serving as the Regional Manager of the Scranton branch of a paper distribution company, Dunder Mifflin Inc. Also, that's what she said!"
     },
     capabilities: [
