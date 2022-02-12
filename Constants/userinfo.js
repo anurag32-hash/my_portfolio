@@ -5,9 +5,9 @@ import { faGithubAlt, faLinkedinIn, faMediumM, faFacebook, faTwitter, faInstagra
 export const userinfo = {
     logoText: "Anurag Singla", //This text is visible on your navbar and footer like your logo.
     contact: {
-        email: 'michaelscott@email.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
-        phone: '1234567890', //Phone number is optional, if you dont want it, consider leaving it blank .
-        countrycode: '+91' //It is advisable to add the country code incase you mention your contact number.
+        email: 'singlaanurag32@email.com', //It is always a good idea to mention your email on your website. Good platform to communicate.
+        phone: '6317109702', //Phone number is optional, if you dont want it, consider leaving it blank .
+        countrycode: '+1' //It is advisable to add the country code incase you mention your contact number.
     },
     socials: [
         //For aesthetics, it is advisable for you to mention upto 4 social media links only. Fill in the links.
@@ -19,55 +19,55 @@ export const userinfo = {
     greeting: {
         //this text goes on your landing page
         title: "Hey there, I am Anurag.",
-        subtitle: "Michael Gary Scott is a fictional character in NBC's The Office, portrayed by Steve Carell. Michael is the protagonist of the series, serving as the Regional Manager of the Scranton branch of a paper distribution company, Dunder Mifflin Inc. Also, that's what she said!"
+        subtitle: "I'm a software developer, and I love to create things that make people's lives better."
     },
     capabilities: [
         //this text goes on your home page in table format.
         //For aesthetics, it is advisable for you to mention upto 4 catgeories links only.
         //For aesthetics, it is advisable for you to keep similar number of skills in each category
         {
-            category: "Category", // eg.frontend, backend, devops etc
-            skills: ["Skillset1", "Skillset1", "Skillset1"] //eg. react, html, python etc.
+            category: "Languages", // eg.frontend, backend, devops etc
+            skills: ["Python", "C/C++", "Java"] //eg. react, html, python etc.
         },
         {
-            category: "Category",
-            skills: ["Skillset2", "Skillset2", "Skillset2"]
+            category: "Full Stack",
+            skills: ["React", "Node.js", "AWS"]
         },
         {
-            category: "Category",
-            skills: ["Skillset3", "Skillset3", "Skillset3"]
+            category: "Tools",
+            skills: ["Git", "Vs Code", "Linux"]
         },
-        {
-            category: "Category",
-            skills: ["Skillset4", "Skillset4", "Skillset4"]
-        },
+        //{
+          //  category: "Category",
+            //skills: ["Skillset4", "Skillset4", "Skillset4"]
+        //},
     ],
     about: {
         //this text goes at the bottom of your home page.
-        content: "'Do I need to be liked? Absolutely not. I like to be liked. I enjoy being liked. I have to be liked. But it’s not like this compulsive need like my need to be praised.' Whatever the situation or conflict might be, it can almost always be traced back to this need. His conference room characters, fun runs, and copious amounts of office parties are all aimed at his need to be praised.",
+        content: "Part time chess player and dancer but full time programmer",
         resume: "/" //link your resume here. it can be drive link or any other link
     },
     education: {
         visible: true, //set this to false if you want to omit this section
         educationList: [
             {
-                time: 'May - Oct 2020', //timespan
-                title: 'Degree name', //eg. BTech in Compuster Engineering
-                organization: 'School Name', //eg. VJTI, Mumbai
-                description: 'Lorem ipsum dolor sit amet consectetur' //eg. secured a cgpa of 9.25 in all sems appeared in so far
+                time: 'Aug \'21 - Present', //timespan
+                title: 'Masters in Computer Science', //eg. BTech in Compuster Engineering
+                organization: 'Stony Brook University', //eg. VJTI, Mumbai
+                description: 'GPA: 3.5/4.0' //eg. secured a cgpa of 9.25 in all sems appeared in so far
             },
             {
+                time: 'Jul \'17 - May \'21',
+                title: 'BTech in Textile Technology',
+                organization: 'Indian Institute of Technology, Delhi',
+                description: 'GPA: 7.57/10.0'
+            },
+            /*{
                 time: 'May - Oct 2020',
                 title: 'Degree name',
                 organization: 'School Name',
                 description: 'Lorem ipsum dolor sit amet consectetur'
-            },
-            {
-                time: 'May - Oct 2020',
-                title: 'Degree name',
-                organization: 'School Name',
-                description: 'Lorem ipsum dolor sit amet consectetur'
-            },
+            },*/
         ],
     },
     experience: {
@@ -98,7 +98,7 @@ export const userinfo = {
     },
     blogs: {
         //set this to false if you want to omit this section
-        visible: true
+        visible: false
     },
 }
 
